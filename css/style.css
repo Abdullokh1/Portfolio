@@ -1650,7 +1650,7 @@ ul{
 }
 .contact__messege__textarea{
   height: auto;
-  padding-left: 0;
+  padding-left: 20px;
 }
 .contact__btn{
   width: 225px;
@@ -1666,6 +1666,7 @@ ul{
   top: 3px;
   left: 2px;
 }
+
 
 @media screen and (max-width: 780px) {
   .contact__email__wrap{
@@ -1685,8 +1686,14 @@ ul{
   .contact__email{
     font-size: 18px;
   }
-  .contact__messege__textarea{
-    height: 150px;
-  }
   
+}
+
+/* CONTACT END  */
+
+/* FOOTER START  */
+
+.footer{
+  padding: 120px 0;
+  background-color: #222121;
 }
