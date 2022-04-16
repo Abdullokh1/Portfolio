@@ -127,3 +127,13 @@ window.addEventListener('scroll', function(){
 
 // SCROLL END 
 
+ScrollReveal().reveal('.about', { delay: 400 });
+ScrollReveal().reveal('.skills', { delay: 400 });
+ScrollReveal().reveal('.portfolio', { delay: 400 });
+ScrollReveal().reveal('.service', { delay: 400 });
+ScrollReveal().reveal('.resume', { delay: 400 });
+ScrollReveal().reveal('.blog', { delay: 400 });
+ScrollReveal().reveal('.contact', { delay: 400 });
+ScrollReveal().reveal('.footer', { delay: 400 });
+
+

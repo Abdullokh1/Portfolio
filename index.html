@@ -10,6 +10,8 @@
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
 <body>
@@ -661,16 +663,27 @@
   </main>
 
   <footer id="site-footer" class="siter-footer footer">
+    <span class="footer__rectangle"></span>
+    <a class="footer__up" href="#">
+      <i class='bx footer__up__icon bx-chevron-up'></i>
+    </a>
     <div class="container">
-
+      <div class="footer__flex">
+          <a class="header__logo footer__logo" href="#">Abdullokh</a>
+        <div class="footer__link__wrap">
+          <p class="footer__text">Connect</p>
+          <a class="footer__links" href="#"><i class='bx footer__icon bxl-facebook'></i></a>
+          <a class="footer__links" href="#"><i class='bx footer__icon bxl-twitter'></i></a>
+          <a class="footer__links" href="#"><i class='bx footer__icon bxl-instagram'></i></a>
+        </div>
+      </div>
+      <p class="footer__info">Designed with love by Abdullokh © 2022 </p>
     </div>
-
   </footer>
 
 
 
   <script src="js/main.js"></script>
-
   <script src="js/typed.js"></script>
   <script>
     var typed = new Typed('.animate-area', {
