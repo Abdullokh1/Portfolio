@@ -235,11 +235,6 @@ ul{
 .hero-content{
   padding-top: 80px;
 }
-.hero__main__wrapper{
-  background-image: url('../images/hero-img.png');
-  background-repeat: no-repeat;
-  background-position: top -50px right;
-}
 .hero-content__inner {
   padding-top: 30px;
 }
@@ -267,7 +262,6 @@ ul{
   font-size: 75px;
   font-weight: 500;
   margin-left: 20px;
-  
 }
 .social-media {
   position: absolute;
@@ -476,7 +470,6 @@ ul{
   right: 200px;
   transition: all 0.2s ease;
 }
-
 .display{
   right: 0;
   transition: all 0.2s ease;
@@ -484,6 +477,7 @@ ul{
 .hero-content__lists{
   padding: 40px 20px 33px 30px;
 }
+
 .colors__item{
   margin-right: 5px;
   margin-bottom: 5px;
@@ -1050,27 +1044,30 @@ ul{
   padding: 13px;
   position: relative;
   border-radius: 10px;
-  background-image: url('../images/notebook.jpg');
+  background-image: url('../images/chess-game.jpg');
   background-size: cover;
   position: relative;
   cursor: pointer;
   margin-bottom: 25px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* filter: brightness(0.9); */
+
 }
 .works__item--second{
-  background-image: url('../images/portfolio-2-img.jpg');
+  background-image: url('../images/mac-bro.jpg');
 }
 .work__item--third{
-  background-image: url('../images/portfolio-3-img.jpg');
+  background-image: url('../images/insta.jpg');
 }
 .works__item-fourth{
-  background-image: url('../images/portfolio-4-img.jpg');
+  background-image: url('../images/pizza.jpg');
   background-position: center;
 }
 .works__item-fifth{
-  background-image: url('../images/portfolio-5-img.jpg');
+  background-image: url('../images/freshio.jpg');
 }
 .works__item-six{
-  background-image: url('../images/portfolio-6-img.jpg');
+  background-image: url('../images/movie.jpg');
 }
 .work__img{
   object-fit: cover;

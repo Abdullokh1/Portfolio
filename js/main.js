@@ -30,31 +30,18 @@ elopenBurger.addEventListener('click', function(){
 // HERO START 
 
 let elsettingbtn = document.getElementById('settingBtn');
-
 let elsettincontent = document.getElementById('settingContent');
-
 let elfirstcolor = document.getElementById('btnFirst');
-
 let elsecondcolor = document.getElementById('btnsecond');
-
 let elthirdcolor = document.getElementById('btnthird');
-
 let elfourthcolor = document.getElementById('btnfourth');
-
 let elfifthcolor = document.getElementById('btnfifth');
-
 let elsixthcolor = document.getElementById('btnsixth');
-
 let elseventhcolor = document.getElementById('btnseventh');
-
 let eleightcolor = document.getElementById('btneight');
-
 let elninecolor = document.getElementById('btnnine');
-
 let eltencolor = document.getElementById('btnten');
-
 let elelevencolor = document.getElementById('btneleven');
-
 let eltwelvecolor = document.getElementById('btntwelve');
 
 
@@ -69,50 +56,63 @@ elsettingbtn.addEventListener('click', function(){
 
 elfirstcolor.addEventListener('click', function(){
  document.body.classList.add('first-btn');
-})
+ document.body.classList.remove('second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
+})  
 
 elsecondcolor.addEventListener('click', function(){
   document.body.classList.add('second-btn');
+  document.body.classList.remove('first-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
+
  })
 
  elthirdcolor.addEventListener('click', function(){
   document.body.classList.add('third-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
  })
 
  elfourthcolor.addEventListener('click', function(){
   document.body.classList.add('fourth-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
  })
 
  elfifthcolor.addEventListener('click', function(){
   document.body.classList.add('fifth-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
  })
 
  elsixthcolor.addEventListener('click', function(){
   document.body.classList.add('sixth-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
  })
 
  elseventhcolor.addEventListener('click', function(){
   document.body.classList.add('seventh-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
  })
 
  eleightcolor.addEventListener('click', function(){
   document.body.classList.add('eight-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'nine-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
  })
 
  elninecolor.addEventListener('click', function(){
   document.body.classList.add('nine-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'ten-btn', 'eleven-btn', 'twelve-btn')
  })
 
  eltencolor.addEventListener('click', function(){
   document.body.classList.add('ten-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'eleven-btn', 'twelve-btn')
  })
 
  elelevencolor.addEventListener('click', function(){
   document.body.classList.add('eleven-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'twelve-btn')
  })
 
  eltwelvecolor.addEventListener('click', function(){
   document.body.classList.add('twelve-btn');
+  document.body.classList.remove('first-btn', 'second-btn', 'third-btn', 'fourth-btn', 'fifth-btn', 'sixth-btn', 'seventh-btn', 'eight-btn', 'nine-btn', 'ten-btn', 'eleven-btn')
  })
 
 
